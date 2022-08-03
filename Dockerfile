@@ -2,7 +2,7 @@
 # Modified from https://github.com/NMichas/EmailRelay
 # Modified from https://github.com/drdaeman/docker-emailrelay
 
-FROM alpine
+FROM alpine:latest
 
 ARG BUILD_DATE
 ARG VCS_REF
