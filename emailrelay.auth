@@ -1,1 +1,9 @@
+# file /config/emailrelay.auth
+#
+# emailrelay secrets file
+#
+# example of client authentication on the external SMTP server
 
+client plain my_username@libero.it my_secret_password
+
+# you can also encrypt the password, see http://emailrelay.sourceforge.net/index.html#reference_md_Authentication
