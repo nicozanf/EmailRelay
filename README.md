@@ -1,7 +1,7 @@
 # EmailRelay
 E-MailRelay application on a Docker container
 
-This is mainly taken from https://github.com/NMichas/EmailRelay but updated to the latest source and Alpine version. Now it works with RaspberryPi, due to
+This is mainly taken from https://github.com/NMichas/EmailRelay but updated to the latest source programs and Alpine version. Now it can lso run on RaspberryPi, due to
 cross-compiling made on Ubuntu with a command like: 
 
 ```
