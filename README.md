@@ -29,12 +29,11 @@ docker run -d \
 --name=emailrelay \
 -e PUID=0 \
 -e PGID=0 \
--e TZ=Europe/Rome \
 -p 25:25 \
 -v /storage/.config/dockers/emailrelay/config:/config \
 --restart unless-stopped \
 nicozanf/emailrelay \
-emailrelay /config/emailrelay.conf 
+/usr/sbin/emailrelay /config/emailrelay.conf
 ```
 
 where `/storage/.config/dockers/emailrelay/config` is the folder created on point 1. 
