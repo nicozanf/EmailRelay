@@ -39,3 +39,6 @@ nicozanf/emailrelay \
 where `/storage/.config/dockers/emailrelay/config` is the folder created on point 1. 
 
 If you should find any problem, turn on the debug logs by editing `emailrelay.conf`.
+
+Also, you might consider generating some sort of alert if there are bad messages in the spool directory. In the old days you would have a one-line cron job doing "ls
+/var/spool/emailrelay/*.bad >&2 2>/dev/null"; if there are any bad files they get listed to stderr and cron will send a system email to 'root' containing any stderr output (this is a suggestion from Graeme Walker).
