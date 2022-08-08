@@ -18,7 +18,7 @@ where 2.3 is the EmailRelay source version on https://sourceforge.net/p/emailrel
 This example is for use as an SMTP proxy on LibreElec on Rpi3 (I have an old appliance that can only use port 25/TCP, and its use has recently been denied
 by my ISP). But you can easily adapt it to your needs, by changing the configuration files and also the listening TCP port if needed.
 
-1. Create a folder on the host for persistent data - for example on  use `/storage/.config/dockers/emailrelay/config`. On a full Linux OS, it's better to use
+1. Create a folder on the host for persistent data - for example on LibreElec use `/storage/.config/dockers/emailrelay/config`. On a full Linux OS, it's better to use
    something like `/opt/appdata/emailrelay/config`.
 2. on that folder create two configuration files `emailrelay.conf`  and `emailrelay.auth` (simply use the example files attached in this repository but adapt them
    for your needs)
