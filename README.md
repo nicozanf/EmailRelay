@@ -4,7 +4,7 @@ E-MailRelay application on a Docker container, with docker images hosted on http
 ## Attributions
 
 The source program is developed by Graeme Walker on https://sourceforge.net/projects/emailrelay/.
-The Dockerfile is mainly taken from https://github.com/NMichas/EmailRelay but updated to the latest source programs and Alpine version. Now it can also run on RaspberryPi, by to cross-compiling made on Ubuntu with a command like: 
+The Dockerfile is mainly taken from https://github.com/NMichas/EmailRelay but updated to the latest source programs and Alpine version. Now it can also run on RaspberryPi, by cross-compiling made on Ubuntu with a command like: 
 
 ```
 docker buildx build -t  nicozanf/emailrelay:2.3-0 --platform linux/amd64,linux/arm64,linux/arm/v7 --push .
